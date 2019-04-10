@@ -20,10 +20,15 @@ function combineIt(array1, array2) {
   //given 2 arrays combine them into one
 }
 
+function whatsThatMessage(word) {
+  // using 1 string method and 2 array methods find out what the secret word is ie an inpt of loocerauoy should return youarecool.
+}
+
 module.exports = {
   whereIsIt: whereIsIt,
   evenNumbers: evenNumbers,
   isItThere: isItThere,
   doubleIt: doubleIt,
-  combineIt: combineIt
+  combineIt: combineIt,
+  whatsThatMessage: whatsThatMessage
 };

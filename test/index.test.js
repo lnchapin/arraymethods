@@ -37,3 +37,10 @@ describe("Function", function() {
     assert.deepEqual(isValid, [1,2,3,4,5,6])
   })
 })
+
+describe("Function", function() {
+  it("function should return the reverse of the input", function(){
+    var isValid = index.whatsThatMessage("loocerauoy")
+    assert.equal(isValid, "youarecool")
+  })
+})
