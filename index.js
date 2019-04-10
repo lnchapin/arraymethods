@@ -13,7 +13,11 @@ function isItThere(value, array) {
 }
 
 function doubleIt(array) {
-  //given an array of numbers return an array with each value doubled
+  //given an array of numbers return an array with each value doubled (use 2 array methods)
+}
+
+function tripleIt(array) {
+  //given an array of numbers return an array with each value doubled (use 1 array methods)
 }
 
 function combineIt(array1, array2) {
@@ -30,5 +34,6 @@ module.exports = {
   isItThere: isItThere,
   doubleIt: doubleIt,
   combineIt: combineIt,
-  whatsThatMessage: whatsThatMessage
+  whatsThatMessage: whatsThatMessage,
+  tripleIt: tripleIt
 };

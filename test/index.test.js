@@ -32,6 +32,13 @@ describe("Function", function() {
 })
 
 describe("Function", function() {
+  it("function should return all array values tripled", function(){
+    var isValid = index.tripleIt([1,2,3])
+    assert.deepEqual(isValid, [ 3, 6, 9 ])
+  })
+})
+
+describe("Function", function() {
   it("function should return all array values doubled", function(){
     var isValid = index.combineIt([1,2,3],[4,5,6])
     assert.deepEqual(isValid, [1,2,3,4,5,6])
