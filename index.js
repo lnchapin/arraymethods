@@ -1,17 +1,24 @@
-function index(word, array) {
-  // use indexOf to find the index of a word in the array
+// using array methods complete
+
+function whereIsIt(word, array) {
+  // given an array and word return the index location of the given word
 }
 
-function filter(array) {
-  //use filter to return an array of the even numbers from an array of numbers
+function evenNumbers(array) {
+  //given an array of numbers return an array of even numbers
 }
 
-function includes(value, array) {
-  //return a boolean if the value is in the array or not
+function isItThere(value, array) {
+  //given a value and an array return a boolean if the value is present or not
+}
+
+function doubleIt(array) {
+  //given an array of numbers return an array with each value doubled
 }
 
 module.exports = {
-  index: index,
-  filter: filter,
-  includes: includes
+  whereIsIt: whereIsIt,
+  evenNumbers: evenNumbers,
+  isItThere: isItThere,
+  doubleIt: doubleIt
 };
