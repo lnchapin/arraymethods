@@ -21,11 +21,11 @@ function tripleIt(array) {
 }
 
 function combineIt(array1, array2) {
-  //given 2 arrays combine them into one
+  //given 2 arrays combine them into one adding array 2 to array 1
 }
 
 function whatsThatMessage(word) {
-  // using 1 string method and 2 array methods find out what the secret word is ie an inpt of loocerauoy should return youarecool.
+  // using 1 string method and 2 array methods find out what the secret word is ie an input of loocerauoy should return "youarecool".
 }
 
 module.exports = {
