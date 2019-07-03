@@ -51,3 +51,31 @@ describe("Function", function() {
     assert.equal(isValid, "youarecool")
   })
 })
+
+describe("Function", function() {
+  it("function should return value added to the end", function(){
+    var isValid = index.addingToEnd(4)
+    assert.deepEqual(isValid, [ 1, 2, 3, 4 ])
+  })
+})
+
+describe("Function", function() {
+  it("function should return value added to the beginning", function(){
+    var isValid = index.addingToBeginning(0)
+    assert.deepEqual(isValid, [ 0, 1, 2, 3 ])
+  })
+})
+
+describe("Function", function() {
+  it("function should return array with element removed from the end", function(){
+    var isValid = index.removingFromEnd()
+    assert.deepEqual(isValid, [ 1, 2])
+  })
+})
+
+describe("Function", function() {
+  it("function should return array with element removed from the beginning", function(){
+    var isValid = index.removingToBeginning()
+    assert.deepEqual(isValid, [ 2, 3])
+  })
+})

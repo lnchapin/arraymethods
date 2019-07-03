@@ -28,6 +28,23 @@ function whatsThatMessage(word) {
   // using 1 string method and 2 array methods find out what the secret word is ie an input of loocerauoy should return "youarecool".
 }
 
+function addingToEnd(value) {
+  const arr = [1,2,3] //do not change this line
+  // using one array method add the value to the end and return the array
+}
+function addingToBeginning(value) {
+  const arr = [1,2,3] //do not change this line
+    // using one array method add the value to the beginning and return the array
+}
+function removingFromEnd() {
+  const arr = [1,2,3] //do not change this line
+  // using one array method remove the value from the end and return the array
+}
+function removingToBeginning() {
+  const arr = [1,2,3] //do not change this line
+  // using one array method remove the value from the beginning and return the array
+}
+
 module.exports = {
   whereIsIt: whereIsIt,
   evenNumbers: evenNumbers,
@@ -35,5 +52,9 @@ module.exports = {
   doubleIt: doubleIt,
   combineIt: combineIt,
   whatsThatMessage: whatsThatMessage,
-  tripleIt: tripleIt
+  tripleIt: tripleIt,
+  addingToEnd: addingToEnd,
+  addingToBeginning: addingToBeginning,
+  removingFromEnd: removingFromEnd,
+  removingToBeginning: removingToBeginning
 };
